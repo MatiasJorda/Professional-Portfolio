@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My development <span className="text-purple">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -15,7 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
+          des="We'll collaborate to map out your goals, target audience, 
           and key functionalities. We'll discuss things like site structure, 
           navigation, and content requirements."
         >
@@ -23,14 +23,18 @@ const Approach = () => {
             animationSpeed={5.1}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+              colors={[
+              // change the colors of the
+              [255, 166, 158],
+              [221, 255, 247],
+            ]}
+            dotSize={2}
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Design & Development"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Using the plan, I’ll design a modern, responsive UI and build the website or system using clean, scalable code. Both front-end and back-end components will be developed with performance and maintainability in mind."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,16 +52,32 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing & Deployment"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Thorough testing is done across devices and browsers to ensure everything works as expected. Once validated, I’ll deploy your project to a live environment with monitoring in place for smooth performance."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-sky-900 rounded-3xl overflow-hidden"
+              colors={[
+              // change the colors of the
+              [255, 166, 158],
+              [221, 255, 247],
+            ]}
+            dotSize={2}
+          />
+        </Card>
+                <Card
+          title="Documentation & Handoff"
+          icon={<AceternityIcon order="Phase 4" />}
+          des="You’ll receive clear, concise technical documentation covering the architecture, workflows, and usage instructions. I’ll also guide you or your team through the system for confident long-term management."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3}
+            containerClassName="bg-fuchsia-800 rounded-3xl overflow-hidden"
+            colors={[[255, 166, 158],
+              [221, 255, 247],]}
+              dotSize={2}
           />
         </Card>
       </div>

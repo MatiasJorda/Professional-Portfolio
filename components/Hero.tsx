@@ -52,12 +52,15 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Bridging Code and Real-World Functionality"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Vincent, a Full-Stack .NET Developer skilled in ASP.NET, web and desktop applications, SQL Server, and
+WordPress customization. Experienced in microcontroller programming, integrating hardware
+with software for real-time monitoring. Passionate about building efficient, user-friendly
+solutions that enhance business processes.
           </p>
 
           <a href="#about">
