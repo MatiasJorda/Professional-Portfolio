@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <section id="about" className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -40,7 +40,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-10 z-8">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
               AI & Data Science Engineer Student
@@ -66,16 +66,17 @@ const Hero = () => {
             className="w-49 h-48 rounded-full mt-6 border-4 border-white shadow-lg"
           />
 
-          <a href="#about">
-            <MagicButton
-              title="Explore My Projects"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <MagicButton
+            title="Contact Me"
+            icon={<FaLocationArrow />}
+            position="right"
+            handleClick={() => {
+              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
