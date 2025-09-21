@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Turning data into predictions through visionary leadership."
+            words="Turning data into predictions & visionary leadership."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
