@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/MatiasJorda",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    url: "https://www.linkedin.com/in/mat%C3%ADas-jord%C3%A1-b663642a3/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/insta.svg", // si tenés un icono de Instagram en /public
+    url: "https://www.instagram.com/Matijorda",
   },
 ];
