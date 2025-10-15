@@ -101,7 +101,7 @@ export const projects = [
     des: "Automation AI-driven Agency, utilizing advanced algorithms to optimize business problems.",
     img: "/AtomAI.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "",
+    link: "https://atomlabs-ia.vercel.app/",
   },
 ];
 
