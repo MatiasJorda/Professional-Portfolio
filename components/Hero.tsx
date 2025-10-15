@@ -71,7 +71,9 @@ const Hero = () => {
             icon={<FaLocationArrow />}
             position="right"
             handleClick={() => {
-              document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+              if (typeof document !== "undefined") {
+                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+              }
             }}
           />
         </div>
